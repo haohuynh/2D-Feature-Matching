@@ -19,6 +19,7 @@ Group 3 includes SIFT & FAST with low to high neighborhood density and low numbe
 
 ## Task MP.8
 Matcher Configuration: Brute Force and KNN Selector with Descriptor Distance Ratio .8
+
 Please see the below table for the number of matches.
 
 <img src="images/2DFM2.JPG"/>
