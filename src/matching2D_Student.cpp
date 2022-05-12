@@ -8,7 +8,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
                       std::vector<cv::DMatch> &matches, std::string descriptorType, std::string matcherType, std::string selectorType)
 {
     // configure matcher
-    bool crossCheck = true;
+    bool crossCheck = false;
     cv::Ptr<cv::DescriptorMatcher> matcher;
 
     if (matcherType.compare("MAT_BF") == 0){
@@ -52,6 +52,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
         }
       
         cout << "(KNN) # keypoints removed = " << knn_matches.size() - matches.size() << endl;
+      	cout << "(KNN) # keypoints matched = " << matches.size() << endl;
     }
 }
 
