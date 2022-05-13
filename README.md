@@ -25,8 +25,11 @@ Please see the below table for the number of matches.
 <img src="images/2DFM2.JPG"/>
 
 ## Task MP.9
+Please see the below table for the total runtime of Detector-Descriptor pairs. 
 
 <img src="images/2DFM3.JPG"/>
+
+According to this table, the top 3 Detector-Descriptor combinations, in descending order, are FAST-BRIEF, FAST-ORB, and then FAST-BRISK. For Collistion Detection Systems, processing time is a critical criterion affecting the selection of such algorithms. Besides, with respect to the other tables of keypoints and matches, the performance of these pairs is also acceptable (about 80% for the first two pairs, and 68% for the last one). 
 
 ## Spreadsheet 
 Please see ./FM.xlsx for the collected data.
