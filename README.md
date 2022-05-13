@@ -3,6 +3,59 @@
 ## Code Starter Repository
 Please refer to https://github.com/udacity/SFND_2D_Feature_Tracking
 
+## Task MP.1
+See MidTermProject_Camera_Student.cpp, lines 66-70.
+
+Simply delete the very first element when the buffer size/threshold is reached. Vector libs have already handled the Shift. Operator '>=' asures a thread safety.
+
+## Task MP.2
+See MidTermProject_Camera_Student.cpp, lines 85-93.
+
+See matching2D_Student.cpp, lines 97-244.
+
+See Harris Corner Detection Exercise, and the lecture for NMS.
+
+See Popular Keypoint Detectors Exercise.
+
+We are simply using the OpenCV libs. For the simplicity of this project, multiple default parameters are utilized for creating the detectors. The source code is self-explanatory.
+
+## Task MP.3
+See MidTermProject_Camera_Student.cpp, lines 101-112.
+
+The source code is self-explanatory.
+
+Iterating through the key points and erase what are not in the region of interest.
+
+## Task MP.4
+See MidTermProject_Camera_Student.cpp, line 142.
+
+See matching2D_Student.cpp, lines 60-64.
+
+The source code is self-explanatory.
+
+Simply using the OpenCV libs with a majorty of default parameters.
+
+## Task MP.5
+
+See MidTermProject_Camera_Student.cpp, lines 155-166.
+
+See matching2D_Student.cpp, lines 7-57.
+
+See Descriptor Matching Exercise and the related lectures.
+
+The source code is self-explanatory.
+
+We are not implementing anything from scratch. Just simply using the OpenCV libs.
+
+## Task MP.6
+See matching2D_Student.cpp, lines 47-52.
+
+See Descriptor Matching Exercise and the related lectures.
+
+The source code is self-explanatory.
+
+Just using .8 as a threshold for selecting the matches with the distance ratio less than that. 
+
 ## Task MP.7
 Please see the below table for the number of keypoints.
 
