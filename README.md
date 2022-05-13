@@ -28,4 +28,5 @@ Please see the below table for the number of matches.
 
 <img src="images/2DFM3.JPG"/>
 
-## Spreadsheet is at ./FM.xlsx
+## Spreadsheet 
+Please see ./FM.xlsx for the collected data.
