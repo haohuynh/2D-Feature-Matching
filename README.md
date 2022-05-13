@@ -33,7 +33,7 @@ See matching2D_Student.cpp, lines 60-64.
 
 The source code is self-explanatory.
 
-Simply using the OpenCV libs with a majorty of default parameters.
+Simply using the OpenCV libs with a majority of default parameters.
 
 ## Task MP.5
 
